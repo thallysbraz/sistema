@@ -8,7 +8,7 @@ const app = express();
  * Database setup
 */
 mongoose.connect("mongodb://localhost:27017/upload", {
-    useNewUrlParser: true 
+    useNewUrlParser: true,
 }),
 
 
